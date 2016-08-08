@@ -18,6 +18,8 @@ const ROUTES = {
     friendshipShow: 'friendships/show/<%= id %>/',
     friendshipShowMany: 'friendships/show_many/',
     userInfo: 'users/<%= id %>/info/',
+    userStory: 'feed/reels_media/',
+    storyTray: 'feed/reels_tray/',
     userFeed: 'feed/user/<%= id %>/?<%= maxId ? ("max_id=" + maxId + "&") : "" %>rank_token=<%= rankToken %>',
     timelineFeed: 'feed/timeline/?<%= maxId ? ("max_id=" + maxId + "&") : "" %>rank_token=<%= rankToken %>&ranked_content=true',
     tagFeed: 'feed/tag/<%= tag %>/?<%= maxId ? ("max_id=" + maxId + "&") : "" %>rank_token=<%= rankToken %>',
